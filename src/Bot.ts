@@ -1,7 +1,9 @@
-import { Client } from "discord.js";
+import { Client } from 'discord.js';
+import configurationConfig from './utils/configuration.config';
+import ready from './listeners/ready';
 
-console.log("Bot is starting...");
+console.log('Bot is starting...');
 
 const client = new Client({ intents: [] });
-
-console.log(client);
+ready(client);
+client.login(configurationConfig().token);
