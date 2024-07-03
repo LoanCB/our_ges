@@ -1,0 +1,20 @@
+{
+  "name": "our_ges",
+  "version": "1.0.0",
+  "description": "Bot discord pour récupérer les informations de MyGes",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/Bot.ts"
+  },
+  "author": "Loan CB",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
